@@ -1,0 +1,40 @@
+# Binaries for programs and plugins
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Test binaries
+*.test
+
+# Output of the go build command
+*.out
+
+# Dependency directories (go mod)
+/vendor
+
+# Log files
+*.log
+
+# IDE-specific files
+.idea/
+.vscode/
+
+# Environment variables
+.env
+
+# Database
+*.db
+
+# SQLC generated files
+internal/adapters/database/queries.sql.go
+
+# Migrations
+/migrations/*.down.sql
+/migrations/*.up.sql
+
+# Makefile
+/Makefile.local
+
+# SQLC
+sql/sqlc.yaml
